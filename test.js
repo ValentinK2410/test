@@ -1,6 +1,6 @@
 let a = "Hello, ";
 
-function test() {
-    return "JavaScript!";
+function test(txt) {
+    return "Hello, " + txt;
 }
-console.log(a + test());
+console.log(test("JavaScript!"));
