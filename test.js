@@ -1,1 +1,2 @@
-console.log("JavaScript!");
+let a = "Hello, ";
+console.log(a + "JavaScript!");
