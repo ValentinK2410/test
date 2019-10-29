@@ -1,2 +1,6 @@
 let a = "Hello, ";
-console.log(a + "JavaScript!");
+
+function test() {
+    return "JavaScript!";
+}
+console.log(a + test());
